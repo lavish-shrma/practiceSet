@@ -19,6 +19,7 @@ const arr = [
 
 let stories = document.querySelector("#stories")
 let clutter = ""
+
 arr.forEach((elem, idx) => {
     clutter += `<div class="story">
           <img 
@@ -39,4 +40,5 @@ stories
         setTimeout(() => {
             document.querySelector("#full-screen").style.display = "none"
         }, 3000);
+
     })
