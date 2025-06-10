@@ -17,10 +17,12 @@ const arr = [
     }
 ];
 
+let stories = document.querySelector("#stories")
 let clutter = ""
 arr.forEach((elem, idx) => {
     clutter += `<div class="story">
           <img 
+            id="${idx}"
             src="${elem.dp}"
             alt=""
           />
@@ -28,3 +30,13 @@ arr.forEach((elem, idx) => {
 });
 
 document.querySelector('#stories').innerHTML = clutter;
+
+stories
+    .addEventListener("click", (dets) => {
+        document.querySelector("#full-screen").style.display = "block"
+        document.querySelector("#full-screen").style.backgroundImage = `url(${arr[dets.target.id].story})`
+
+        setTimeout(() => {
+            document.querySelector("#full-screen").style.display = "none"
+        }, 3000);
+    })
