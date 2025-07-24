@@ -5,9 +5,9 @@ This repository is a collection of all my JavaScript practice sets as I learn an
 🚀 About
 
     Purpose: To document and track my progress as I practice JavaScript.
-
+    
     Content: From basic syntax and algorithms to DOM manipulation and mini-projects.
-
+    
     Learning Style: Hands-on coding, experimenting, and breaking things to learn better!
 
 📂 Folder Structure
@@ -41,6 +41,6 @@ Feel free to browse, fork, or suggest improvements!
 If you’re also learning, clone the repo and try the problems yourself.
 📢 Let’s Connect!
 
-If you have suggestions, feedback, or want to collaborate, open an issue or connect with me on GitHub!
+If you have suggestions, feedback, or would like to collaborate, please open an issue or connect with me on GitHub.
 
 Happy Coding! 🚀
